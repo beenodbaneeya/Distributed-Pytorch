@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=training_job_multi_gpu
-#SBATCH --account=nn9997k
+#SBATCH --account=<project_number>
 #SBATCH --output=training_output_multi_gpu.log
 #SBATCH --error=training_error_multi_gpu.log
 #SBATCH --time=01:00:00  # Set the time limit for the job
