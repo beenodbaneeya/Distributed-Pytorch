@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=training_job
-#SBATCH --account=nn9997k
+#SBATCH --account=<project_number>
 #SBATCH --output=training_output.log
 #SBATCH --error=training_error.log
 #SBATCH --time=01:00:00  # Set the time limit for the job
